@@ -1,0 +1,37 @@
+TO -DO APPlICATION
+
+Creating a to-do app involves multiple steps, including designing the user interface, developing the application, and implementing the features. Here's a simplified guide on how you might approach creating a basic to-do app:
+
+1. Planning:
+Define the features and functionalities in our to-do app as instructed by Product Owner.
+Sketch a rough layout of the user interface.
+
+2. Choose a Technology Stack:
+Decide on the technologies we will  use for front-end (HTML, CSS) and back-end (Node.js) development.
+Select a database (MySQL) to store tasks.
+
+3. Development:
+a. Front-End Development:
+Create the UI using HTML .
+(Implement features like adding tasks, deleting tasks, editing tasks as completed.)
+b. Back-End Development:
+Set up a server using   MySQL back-end technology.
+Create APIs/endpoints for handling tasks (CRUD operations - Create, Read, Update, Delete).
+Implementing  user authentication is required.
+c. Database:
+Set up and configure the chosen database.
+Create tables or collections to store task-related information.
+
+4. Integration:
+Connect the front-end and back-end parts of our application.
+Ensure proper communication between the client and server using APIs.
+
+5. Testing:
+Perform unit tests to check individual components.
+Conduct integration tests to ensure different parts of the app work together.
+
+6. Deployment:
+Deploy your app to a hosting service such as  AWS  for users to access.
+
+7. Continual Improvement:
+Gather user feedback and make improvements based on usability and feature requests.
