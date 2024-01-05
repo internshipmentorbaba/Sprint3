@@ -1,0 +1,20 @@
+   To Do Application
+
+MentorBaba Academy is a Global Expert Mentors provider in USA. The company offers various products and services like To Do Application, Mentoring Students and DevOps coaching.
+Initially the company was using a Monolithic application architecture, As the company grown, It started facing difficulties in managing the To Do application infrastructure and application deployments. 
+MentorBaba Academy has decided to transform its monolithic application architecture to microservice application architecture and opted to go DevOps by implementing CICD pipeline and necessary automations. MentorBaba Academy has decided to use AWS as primary cloud services provider to create servers, databases, and application deployments. 
+The company’s goal is to deliver the product updates frequently to production with High quality & Reliability. They also want to accelerate software delivery speed, quality and reduce feedback time between developers and testers. 
+Following are the problems the company is facing at the moment 
+✓ Manual efforts to test various components/modules of the project 
+✓ Incremental builds are difficult to manage, test and deploy 
+Business challenge/requirement 
+As soon as the developer pushes the updated code on the GIT master branch, the Jenkins job should be triggered using a GitHub Webhook and Jenkins job should be triggered, The code should be checked out, compiled, tested, packaged and containerized and deployed to the preconfigured test-server automatically. 
+The deployment should then be tested using a test automation tool (Selenium), and if the build is successful, it should be deployed to the prod server. All this should happen automatically and should be triggered from a push to the GitHub master branch. 
+The solution is available at below repository, use it to validate the solution with the solution 
+available at - https://github.com/internshipmentorbaba/Sprint-1.git
+https://github.com/internshipmentorbaba/Sprint2.git
+https://github.com/internshipmentorbaba/Sprint3.git
+
+
+Note : To have a detailed information about running the application and exposed APIs, 
+Input/Output format, Refer to the README.md in the GitHub repository.
